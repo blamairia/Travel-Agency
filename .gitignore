@@ -1,0 +1,41 @@
+# Ignore system and OS files
+.DS_Store
+Thumbs.db
+
+# Ignore PHP Composer dependencies
+/vendor
+
+# Ignore IDE and editor files
+.idea
+*.sublime-project
+*.sublime-workspace
+*.swo
+*.swp
+.vscode
+
+# Ignore PHP error logs
+php_errors.log
+error_log
+
+# Ignore cache and temporary files
+*.tmp
+*.temp
+*.cache
+*.bak
+
+# Ignore user-specific config
+php.ini
+php.ini~
+.user.ini
+.user.ini~
+.htaccess
+.htaccess~
+.env
+.env.local
+.env.*
+.env.*.local
+
+# Ignore PHPUnit test results and code coverage
+/tests/_output
+/coverage
+clover.xml
